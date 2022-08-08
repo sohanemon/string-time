@@ -22,3 +22,6 @@ console.log(typeof courses); //returns object
 console.log(typeof books); //returns bug: object
 console.log(typeof getData); //returns function
 /* --------------------------------------------------------------------- */
+
+/* so to find out a file is array or not we may use */
+console.log(Array.isArray(books)); //returns true
