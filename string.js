@@ -50,3 +50,14 @@ console.log(arr.splice(1, 3));
  * 3 is the counting number to which delete number of element.
  * so here may *delete 3 items from index 1
  */
+
+/* --------------------------------------------------------------------- */
+/*                        immutability of string                         */
+/* --------------------------------------------------------------------- */
+
+const string = "sada sada kala kala";
+string[0] = "k";
+console.log(string[1]);
+console.log(
+  string
+); /*output: sada sada kala kala note: becoz string is immutable */
